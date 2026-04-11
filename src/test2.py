@@ -34,12 +34,12 @@ while current_date <= end_date:
     filepath = f'{ticker_dir}/{filename}'
     
     try:
-        next_day = current_date + timedelta(days=1)
+        # next_day = current_date + timedelta(days=1)
         # Download 1m interval data for the specific day
-        intra_day = yf.download(ticker, start=date_str, end=next_day, interval='1m', progress=False)
+        intra_day = yf.download(ticker, start=date_str, end=current_date, interval='1m', progress=False)
         
         if not intra_day.empty:
-            intra_day.to_csv(filepath, index=True)
+            intra_day.to_csv(filepath, index=True, mode='w')
             print(f"Saved {date_str}: {intra_day.shape[0]} records to {filepath}")
         else:
             print(f"No data for {date_str} (market closed or no trading)")

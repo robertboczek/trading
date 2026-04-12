@@ -36,7 +36,7 @@ while current_date <= end_date:
     try:
         # next_day = current_date + timedelta(days=1)
         # Download 1m interval data for the specific day
-        intra_day = yf.download(ticker, start=date_str, end=current_date, interval='1m', progress=False)
+        intra_day = yf.download(ticker, start=date_str, end=current_date, interval='1m', progress=False, prepost=True)
         
         if not intra_day.empty:
             intra_day.to_csv(filepath, index=True, mode='w')

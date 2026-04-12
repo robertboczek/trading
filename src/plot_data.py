@@ -4,8 +4,8 @@ import argparse
 
 # Set up argument parser
 parser = argparse.ArgumentParser(description="Plot stock data from CSV file")
-parser.add_argument("--file", default="trading/data/AAPL/03_13_26.csv", 
-                    help="Path to CSV file (default: trading/data/AAPL/03_13_26.csv)")
+parser.add_argument("--file", default="trading/data/LEVI/04_07_26.csv", 
+                    help="Path to CSV file (default: trading/data/LEVI/04_07_26.csv)")
 args = parser.parse_args()
 
 # Read the CSV file

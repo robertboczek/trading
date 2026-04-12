@@ -2,6 +2,9 @@ import numpy as np
 import sys
 import argparse
 import yfinance as yf
+import earnings_estimate as ae
+
+
 print(np.__version__)
 
 parser = argparse.ArgumentParser(description="A simple script")
@@ -16,4 +19,9 @@ ticker = args.ticker
 intra_day = yf.download(ticker, start='2026-04-09', end='2026-04-10', interval='1m')
 print(intra_day.size)
 
-intra_day.to_csv(f'trading/data/{ticker}/4_10_26.csv', index=True)
+# intra_day.to_csv(f'trading/data/{ticker}/4_10_26.csv', index=True)
+
+aapl= yf.Ticker("AAPL")
+print(aapl.income_stmt)
+
+ae.get_earnings_info(ticker)

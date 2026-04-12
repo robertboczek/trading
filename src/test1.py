@@ -3,6 +3,7 @@ import sys
 import argparse
 import yfinance as yf
 import earnings_estimate as ae
+import configparser
 
 
 print(np.__version__)
@@ -25,3 +26,8 @@ aapl= yf.Ticker("AAPL")
 print(aapl.income_stmt)
 
 ae.get_earnings_info(ticker)
+
+config = configparser.ConfigParser()
+config.read('conf/schwab/secret.conf')
+
+print(config['SCHWAB']['APP_KEY'])

@@ -28,6 +28,7 @@ FEEDS = {
     "all":      "https://www.prnewswire.com/rss/news-releases-list.rss",
     "finance":  "https://www.prnewswire.com/rss/financial-news.rss",
     "earnings": "https://www.prnewswire.com/rss/financial-news.rss",
+    "rss": "https://www.prnewswire.com/rss/news-releases-list.rss",
 }
 
 # Keywords that strongly indicate an earnings/financial results release

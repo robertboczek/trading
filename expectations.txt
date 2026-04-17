@@ -1,0 +1,89 @@
+Evaluate Netflix earnings using the following framework:
+
+1. Consensus expectations (baseline)
+   - Near-term (Q1 2026):
+     * EPS ≈ $0.76
+     * Revenue ≈ $12.1–12.2B
+     * YoY growth ≈ 15%+ (revenue and EPS)
+   - Full-year 2026:
+     * Revenue ≈ $51–52B (~13% growth)
+     * EPS ≈ $3.1
+
+   Interpretation:
+   - Assume steady, durable growth is priced in.
+   - Do not assume hyper-growth expectations.
+   - Treat Netflix as a maturing platform.
+
+2. Priority evaluation factors (ranked)
+
+   2.1 Forward guidance (highest priority)
+   - Compare forward revenue, EPS, and margin guidance vs consensus.
+   - If guidance is weak or below expectations → bearish signal.
+   - If guidance is strong → primary driver of upside.
+   - Override rule: guidance can outweigh an earnings beat.
+
+   2.2 Advertising performance
+   - Evaluate progress toward ~$3B annual ad revenue (high growth expected).
+   - Assess YoY growth trajectory and commentary on ad demand.
+   - Strong ad momentum → bullish.
+   - Weak or slowing ad growth → bearish.
+
+   2.3 Margins and cost structure
+   - Analyze operating margin trends and forward margin guidance.
+   - Identify impact of content amortization timing.
+   - Expected pattern:
+     * Near-term margin pressure is acceptable.
+     * Second-half recovery is required.
+   - Failure to show margin stabilization or recovery → negative signal.
+
+   2.4 Pricing power
+   - Evaluate impact of price increases across tiers.
+   - Key indicators:
+     * Churn levels
+     * ARPU growth
+   - Strong pricing power (low churn + ARPU growth) → bullish.
+   - Signs of demand elasticity → bearish.
+
+   2.5 Growth quality (de-emphasize subscribers)
+   - Focus on:
+     * Revenue growth
+     * Engagement
+     * Profitability
+   - Subscriber growth is secondary but:
+     * Continued international expansion is expected.
+     * Weak global growth → negative signal.
+
+3. Expectation vs reality framework
+
+   Bull case:
+   - Strong advertising ramp
+   - Durable pricing power
+   - Stable margins with future expansion
+   - ~13% sustained growth profile
+
+   Bear case:
+   - Growth deceleration (market saturation)
+   - Rising content costs
+   - Weak forward guidance
+   - Lack of incremental growth drivers
+
+4. Reaction function
+
+   - If:
+     * Earnings beat
+     * AND strong forward guidance
+     * AND clear traction in ads + pricing
+     → classify as BULLISH
+
+   - If:
+     * Earnings beat
+     * BUT weak guidance OR weak business signals
+     → classify as BEARISH
+
+   - If mixed signals:
+     → classify as NEUTRAL with bias determined by guidance
+
+Output:
+- Classification: Bullish / Neutral / Bearish
+- Key drivers (2–4 concise points)
+- Explicit note on whether guidance confirmed or broke expectations

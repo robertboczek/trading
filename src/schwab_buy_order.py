@@ -22,6 +22,7 @@ import os
 import sys
 
 import schwab
+from schwab.auth import easy_client
 from schwab.orders.equities import equity_buy_market
 from dotenv import load_dotenv
 
@@ -53,7 +54,7 @@ def main():
     api_key = get_env("SCHWAB_API_KEY")
     api_secret = get_env("SCHWAB_API_SECRET")
     account_hash = get_env("SCHWAB_ACCOUNT_HASH")
-    token_path = os.environ.get("SCHWAB_TOKEN_PATH", "token.json")
+    token_path = os.environ.get("SCHWAB_TOKEN_PATH", "conf/schwab/token.json")
 
     order = equity_buy_market(ticker, quantity)
 
@@ -61,8 +62,18 @@ def main():
         print(f"[dry-run] Would place market BUY order: {quantity} x {ticker}")
         print(f"Order spec: {order.build()}")
         return
+    
+    #print(api_key, api_secret, token_path)
+    # client = easy_client(
+    #     api_key=api_key,
+    #     app_secret=api_secret,
+    #     callback_url='https://127.0.0.1:8080',
+    #     token_path=token_path
+    # )
 
     client = schwab.auth.client_from_token_file(token_path, api_key, api_secret)
+    resp = client.get_account_numbers()
+    print(f"Available accounts: {resp.json()}")
 
     response = client.place_order(account_hash, order)
 

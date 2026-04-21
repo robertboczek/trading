@@ -1,89 +1,107 @@
-Evaluate Netflix earnings using the following framework:
+Evaluate Alaska Air Group (ALK) earnings using the following framework:
 
 1. Consensus expectations (baseline)
+
    - Near-term (Q1 2026):
-     * EPS ≈ $0.76
-     * Revenue ≈ $12.1–12.2B
-     * YoY growth ≈ 15%+ (revenue and EPS)
+     * EPS ≈ -$1.5 to -$2.0 (loss expected)
+     * Expectations have been revised downward
    - Full-year 2026:
-     * Revenue ≈ $51–52B (~13% growth)
-     * EPS ≈ $3.1
+     * EPS guidance ≈ $3.50–$6.50 (wide range)
+     * Consensus midpoint ≈ $5.2–$5.5
+     * Revenue ≈ $15B+
 
    Interpretation:
-   - Assume steady, durable growth is priced in.
-   - Do not assume hyper-growth expectations.
-   - Treat Netflix as a maturing platform.
+   - A weak Q1 is expected and largely priced in.
+   - Focus is on forward recovery, not current-quarter results.
+   - Treat the quarter as a “reset” period.
 
 2. Priority evaluation factors (ranked)
 
    2.1 Forward guidance (highest priority)
-   - Compare forward revenue, EPS, and margin guidance vs consensus.
-   - If guidance is weak or below expectations → bearish signal.
-   - If guidance is strong → primary driver of upside.
-   - Override rule: guidance can outweigh an earnings beat.
+   - Compare updated full-year and forward-quarter guidance vs prior expectations.
+   - Company has already guided below consensus and cut Q1 outlook.
+   - If guidance stabilizes or improves → bullish signal.
+   - If guidance weakens again → strong bearish signal.
+   - Override rule: guidance outweighs Q1 results.
 
-   2.2 Advertising performance
-   - Evaluate progress toward ~$3B annual ad revenue (high growth expected).
-   - Assess YoY growth trajectory and commentary on ad demand.
-   - Strong ad momentum → bullish.
-   - Weak or slowing ad growth → bearish.
+   2.2 Fuel cost outlook
+   - Evaluate forward jet fuel assumptions and hedging commentary.
+   - Fuel is a major earnings driver (~$0.70 EPS headwind recently).
+   - If fuel pressure is framed as temporary → positive.
+   - If elevated costs persist → negative.
 
-   2.3 Margins and cost structure
-   - Analyze operating margin trends and forward margin guidance.
-   - Identify impact of content amortization timing.
-   - Expected pattern:
-     * Near-term margin pressure is acceptable.
-     * Second-half recovery is required.
-   - Failure to show margin stabilization or recovery → negative signal.
+   2.3 Demand trends (forward-looking)
+   - Assess strength of:
+     * Corporate travel (currently strong)
+     * Leisure travel (mixed: Mexico/Hawaii weaker)
+   - Determine whether demand weakness is:
+     * Temporary/disruption-driven → neutral/positive
+     * Structural/broad-based → negative
 
-   2.4 Pricing power
-   - Evaluate impact of price increases across tiers.
-   - Key indicators:
-     * Churn levels
-     * ARPU growth
-   - Strong pricing power (low churn + ARPU growth) → bullish.
-   - Signs of demand elasticity → bearish.
+   2.4 Pricing power / yields
+   - Evaluate ability to:
+     * Raise fares
+     * Maintain load factors
+   - Strong pricing power → supports margins → bullish
+   - Weak pricing → margin compression → bearish
 
-   2.5 Growth quality (de-emphasize subscribers)
-   - Focus on:
-     * Revenue growth
-     * Engagement
-     * Profitability
-   - Subscriber growth is secondary but:
-     * Continued international expansion is expected.
-     * Weak global growth → negative signal.
+   2.5 Cost control and margin trajectory
+   - Assess:
+     * Non-fuel cost discipline
+     * Expected margin recovery in Q2–Q3 (peak season)
+   - Lack of margin recovery path → negative signal
 
 3. Expectation vs reality framework
 
    Bull case:
-   - Strong advertising ramp
-   - Durable pricing power
-   - Stable margins with future expansion
-   - ~13% sustained growth profile
+   - Fuel pressure is temporary
+   - Demand strengthens into summer
+   - Corporate travel remains strong
+   - Guidance stabilizes or improves
 
    Bear case:
-   - Growth deceleration (market saturation)
-   - Rising content costs
-   - Weak forward guidance
-   - Lack of incremental growth drivers
+   - Fuel costs remain elevated
+   - Demand weakens across regions
+   - Guidance is cut again
+   - Margin recovery is delayed
 
-4. Reaction function
+4. Priced-in baseline vs surprise scenarios
+
+   Baseline:
+   - Weak Q1 loss
+   - Some fuel pressure
+   - Conservative forward outlook
+
+   Upside surprise:
+   - Improved fuel outlook
+   - Strong forward bookings / summer demand
+   - Guidance raised or tightened upward
+
+   Downside surprise:
+   - Additional guidance cuts
+   - Broad demand deterioration
+   - Worse-than-expected margin pressure
+
+5. Reaction function
 
    - If:
-     * Earnings beat
-     * AND strong forward guidance
-     * AND clear traction in ads + pricing
+     * Q1 results are in line
+     * AND guidance stabilizes or improves
+     * AND demand outlook is constructive
      → classify as BULLISH
 
    - If:
-     * Earnings beat
-     * BUT weak guidance OR weak business signals
+     * Q1 results are in line or better
+     * BUT guidance weakens OR demand deteriorates
      → classify as BEARISH
 
    - If mixed signals:
-     → classify as NEUTRAL with bias determined by guidance
+     → classify as NEUTRAL with guidance as primary tie-breaker
 
 Output:
 - Classification: Bullish / Neutral / Bearish
 - Key drivers (2–4 concise points)
-- Explicit note on whether guidance confirmed or broke expectations
+- Explicit assessment of:
+  * Guidance direction (improving vs deteriorating)
+  * Demand quality (temporary vs structural weakness)
+  * Margin recovery visibility

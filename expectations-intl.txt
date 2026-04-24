@@ -1,0 +1,121 @@
+Evaluate Intel (INTC) earnings using the following framework:
+
+1. Consensus expectations (baseline)
+
+   - Near-term (Q1 2026):
+     * EPS ≈ $0.00 to $0.02 (near breakeven)
+     * Revenue ≈ $12.2B–$12.5B
+     * YoY growth ≈ flat to slightly negative (~-3%)
+
+   - Company guidance:
+     * EPS ≈ breakeven (0.00)
+     * Revenue range ≈ $11.7B–$12.7B (below prior expectations)
+
+   Interpretation:
+   - Weak near-term performance is expected and largely priced in.
+   - Expectations have been revised downward into the print.
+   - The quarter is treated as a transition period, not a growth phase.
+
+2. Priority evaluation factors (ranked)
+
+   2.1 Forward guidance (highest priority)
+   - Evaluate Q2 and full-year outlook vs consensus.
+   - Intel has a history of:
+     * Beating the quarter
+     * Disappointing on guidance
+   - If guidance improves or exceeds expectations → strong bullish signal.
+   - If guidance is weak or unchanged → bearish (even on a beat).
+   - Override rule: guidance outweighs Q1 results.
+
+   2.2 AI / data center momentum (core narrative)
+   - Assess growth in:
+     * Data center revenue
+     * AI-related CPU demand
+   - Investors are positioning Intel as an AI recovery story.
+   - Strong AI demand commentary → bullish.
+   - Lack of traction vs competitors → bearish.
+
+   2.3 Foundry business progress (strategic pillar)
+   - Evaluate:
+     * Intel Foundry revenue growth
+     * External customer traction
+   - Foundry is key to long-term re-rating.
+   - Weak adoption or continued losses → negative signal.
+
+   2.4 Margin trajectory and cost structure
+   - Analyze:
+     * Gross margin trend
+     * Impact of restructuring costs
+   - Expected pattern:
+     * Near-term pressure acceptable
+     * Gradual recovery required
+   - Continued margin deterioration → bearish.
+
+   2.5 PC market stabilization
+   - Assess demand recovery in:
+     * Client computing segment (PCs)
+   - Stable or improving PC demand → supportive.
+   - Continued weakness → drag on overall growth.
+
+3. Expectation vs reality framework
+
+   Bull case:
+   - Strong AI-driven demand (data center growth)
+   - Guidance raised or materially improved
+   - Foundry progress gains credibility
+   - Margins show path to recovery
+
+   Bear case:
+   - Weak or flat guidance
+   - Limited AI traction vs Nvidia/AMD
+   - Foundry losses persist without progress
+   - Margins remain pressured
+
+4. Priced-in baseline vs surprise scenarios
+
+   Baseline:
+   - Flat revenue (~$12B range)
+   - Near-zero EPS
+   - Modest or cautious outlook
+
+   Upside surprise:
+   - Strong guidance (especially Q2 revenue above expectations)
+   - Accelerating AI/data center demand
+   - Margin improvement signals
+
+   Downside surprise:
+   - Weak or declining guidance
+   - Slower-than-expected AI ramp
+   - Continued margin pressure or execution concerns
+
+5. Reaction function
+
+   - If:
+     * Earnings meet/beat expectations
+     * AND guidance improves
+     * AND AI/data center momentum is strong
+     → classify as BULLISH
+
+   - If:
+     * Earnings beat
+     * BUT guidance weak OR AI traction unclear
+     → classify as BEARISH
+
+   - If mixed signals:
+     → classify as NEUTRAL with guidance as primary tie-breaker
+
+6. Market context (critical overlay)
+
+   - Stock has rallied significantly into earnings (~70%+ YTD).
+   - Expectations for turnaround + AI narrative are elevated.
+   - Risk:
+     * “Good is not enough” — high bar for upside reaction
+     * Expectations may be ahead of fundamentals
+
+Output:
+- Classification: Bullish / Neutral / Bearish
+- Key drivers (2–4 concise points)
+- Explicit assessment of:
+  * Guidance direction (improving vs deteriorating)
+  * AI/data center momentum (accelerating vs lagging)
+  * Margin trajectory (recovering vs pressured)

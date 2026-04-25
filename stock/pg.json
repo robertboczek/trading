@@ -1,0 +1,10 @@
+{
+    "earnings_website": "https://us.pg.com/newsroom/news-releases/PG-Announces-Fiscal-Year-2026-Third-Quarter-Results/",
+    "accept": "application/html",
+    "ticker": "PG",
+    "earnings_date": "2024-07-24",
+    "earnings_time": "After Market Close",
+    "expectations_doc": "stock/expectations-pg.txt",
+    "earnings_doc": "stock/earnings-pg.html"
+
+}

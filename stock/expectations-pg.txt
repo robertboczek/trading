@@ -1,0 +1,128 @@
+Evaluate Procter & Gamble (PG) earnings using the following framework:
+
+1. Consensus expectations (baseline)
+
+   - Near-term (Q3 FY2026):
+     * EPS ≈ $1.56–$1.57
+     * Revenue ≈ $20.5B–$20.6B
+     * YoY growth:
+       - Revenue ≈ +3–5%
+       - EPS ≈ +1–2%
+
+   Interpretation:
+   - Modest, steady growth is expected.
+   - PG is treated as a defensive, mature consumer staples company.
+   - Expectations are low-to-moderate; no acceleration is priced in.
+
+2. Priority evaluation factors (ranked)
+
+   2.1 Volume vs pricing mix (highest priority)
+   - Decompose growth into:
+     * Pricing contribution (~1%+ expected)
+     * Volume growth (expected to turn slightly positive after declines)
+   - Key question:
+     * Is growth driven by real demand (volume) or just pricing?
+   - Positive volume recovery → bullish signal.
+   - Continued weak/negative volumes → bearish.
+
+   2.2 Forward guidance
+   - Evaluate full-year organic sales and EPS outlook.
+   - PG has recently:
+     * Maintained cautious guidance amid weak demand signals
+   - If guidance improves → bullish.
+   - If guidance is lowered or cautious → bearish.
+   - Override rule: guidance outweighs small earnings beats.
+
+   2.3 Margins and cost pressures
+   - Focus on:
+     * Gross margin trend (declining for multiple quarters)
+     * Input cost pressures (energy, commodities, geopolitics)
+   - Expected:
+     * Continued pressure near-term
+   - Key signal:
+     * Stabilization or recovery vs continued decline
+   - Ongoing margin compression → bearish.
+
+   2.4 Consumer demand health (macro signal)
+   - PG is a proxy for global consumer health.
+   - Evaluate:
+     * Trade-down behavior (consumers buying cheaper alternatives)
+     * Category-level demand (home care, baby, beauty)
+   - Weak demand (especially in U.S.) → negative signal.
+   - Stabilizing or improving demand → positive.
+
+   2.5 Market share + category performance
+   - Monitor share trends in key segments:
+     * Fabric & home care
+     * Baby / feminine care
+     * Beauty / grooming
+   - Share losses → bearish.
+   - Stable or gaining share → supportive.
+
+3. Expectation vs reality framework
+
+   Bull case:
+   - Volume growth turns clearly positive
+   - Margins stabilize despite cost pressures
+   - Guidance improves or shows confidence
+   - Demand proves resilient
+
+   Bear case:
+   - Growth remains pricing-driven (no volume recovery)
+   - Margins continue to decline
+   - Weak or cautious guidance
+   - Evidence of consumer weakness / trade-down
+
+4. Priced-in baseline vs surprise scenarios
+
+   Baseline:
+   - Modest growth (~3–5%)
+   - Slight EPS expansion (~1–2%)
+   - Continued margin pressure
+   - Early signs of volume stabilization
+
+   Upside surprise:
+   - Strong volume rebound (not just pricing)
+   - Margin stabilization or improvement
+   - Guidance raised
+   - Strong category performance
+
+   Downside surprise:
+   - Continued volume declines
+   - Margin deterioration worse than expected
+   - Weak or lowered guidance
+   - Broad consumer demand softness
+
+5. Reaction function
+
+   - If:
+     * Earnings meet/beat expectations
+     * AND volume growth turns positive
+     * AND guidance improves or stabilizes
+     → classify as BULLISH
+
+   - If:
+     * Earnings beat
+     * BUT growth is pricing-driven OR margins weaken OR guidance is cautious
+     → classify as BEARISH
+
+   - If mixed:
+     → classify as NEUTRAL with volume + guidance as primary tie-breakers
+
+6. Market context (critical overlay)
+
+   - PG is viewed as a defensive stock:
+     * Lower volatility, but sensitive to macro signals
+   - Current concerns:
+     * Consumer weakness
+     * Rising input costs (energy, supply chain)
+   - Key dynamic:
+     * “Quality of growth” matters more than absolute growth
+
+Output:
+- Classification: Bullish / Neutral / Bearish
+- Key drivers (2–4 concise points)
+- Explicit assessment of:
+  * Volume vs pricing mix (real demand vs inflation-driven growth)
+  * Margin trajectory (stabilizing vs declining)
+  * Guidance direction (improving vs cautious)

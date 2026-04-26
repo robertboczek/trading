@@ -32,7 +32,7 @@ import trader_util
 
 from dotenv import load_dotenv
 
-from trader_util import get_env, print_time, sleep_until, get_headers
+from trader_util import get_env, print_time, sleep_until, get_headers, query_claude, ib_connect, ib_buy
 
 load_dotenv()
 
@@ -54,9 +54,9 @@ def main():
         data = json.load(file)
     earnings_date_str = data.get("earnings_date")
     earnings_time_str = data.get("earnings_time")
-    earnings_url = data.get("earnings_website")
+    earnings_url_array = data.get("earnings_website")
     print(f"Earnings date: {earnings_date_str} {earnings_time_str}")
-    print(f"Earnings website: {earnings_url}")
+    print(f"Earnings website: {earnings_url_array}")
 
     accept = data.get("accept", "html")
     expectations_doc = data.get("expectations_doc")
@@ -79,21 +79,23 @@ def main():
     # keep retrying every 5 seconds 
     report_ready = False
     response = None
-    print(earnings_url)
+    print(earnings_url_array)
     print(headers)
     while not report_ready:
         print_time()
-        response = requests.get(earnings_url, headers=headers)
-        if response.status_code == 200:
-            if response.content.__contains__(b"CAN'T FIND WHAT YOU'RE LOOKING FOR?"):
-                print("Report not ready yet. Retrying...")
-                report_ready = False
+        for earnings_url in earnings_url_array:
+            response = requests.get(earnings_url, headers=headers)
+            if response.status_code == 200:
+                if response.content.__contains__(b"CAN'T FIND WHAT YOU'RE LOOKING FOR?"):
+                    print("Report not ready yet. Retrying...")
+                    report_ready = False
+                else:
+                    print("Report ready")
+                    report_ready = True
+                    break
             else:
-                print("Report ready")
-                report_ready = True
-        else:
-            print(f"Failed to download file (status code: {response.status_code}). Retrying...")
-            time.sleep(5)
+                print(f"Failed to download file (status code: {response.status_code}). Retrying...")
+                time.sleep(5)
 
     print(response.status_code)
 
@@ -113,13 +115,43 @@ def main():
     print(fitz.message.content[0].text)
     print_time()
     result_string = fitz.message.content[0].text[0:20]  # get first 20 characters to check for bullish/bearish/neutral
+
+    stock_price = 100.00
+
     if (result_string.lower().__contains__("bullish")):
         print("Stock will likely go up, consider buying or holding.")
+        ib = ib_connect()
+        # for long position consider buying at higher price to ensure execution 
+        # 1% above current price
+        trade = ib_buy(ticker, "BUY", 1, stock_price * 1.01)  # example: buy 1 share at $100.00
 
     elif (result_string.lower().__contains__("bearish")):
         print("Stock will likely go down, consider selling or shorting.")
+        ib = ib_connect()
+        # for long position consider buying at higher price to ensure execution 
+        # 1% below current price
+        trade = ib_buy(ticker, "SELL", 1, stock_price * 0.99)  # example: buy 1 share at $100.00
+
+    counter = 0
+    while not trade.isDone() and counter < 12:
+        ib.sleep(5)
+        print(f"Status: {trade.orderStatus.status}")
+        counter += 1
+
+    filled = trade.filled
+    print(f"Trade filled: {filled} shares at average price {trade.orderStatus.avgFillPrice}")
+
+    # close all positions
+    print("Canceling any open orders...")
+    ib.reqGlobalCancel()
 
     print_time()
+
+    # sleep for 15 minutes to allow order execution and market reaction before checking status or placing any additional orders
+    # time.sleep(15 * 60)
+
+    # print("Putting orders to close any open positions...")
+    
 
 
 if __name__ == "__main__":

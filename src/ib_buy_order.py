@@ -22,11 +22,12 @@ print(ticker.last)
 contract = Stock('LYFT', 'SMART', 'USD')
 ib.qualifyContracts(contract)
 #order = MarketOrder('BUY', 1) # Buy 10 shares
-order = LimitOrder('BUY', 1, 1.00)
+order = LimitOrder('SELL', 1, 1.00)
 order.outsideRth = True # Allow execution outside regular trading hours
 order.tif = 'GTC'  # Set to Good Till Cancelled
 
 # # Place the order and get a Trade object
+
 trade = ib.placeOrder(contract, order)
 
 # Assuming 'trade' was the result of ib.placeOrder()

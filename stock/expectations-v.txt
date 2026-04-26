@@ -1,0 +1,140 @@
+Evaluate Visa (V) earnings using the following framework:
+
+1. Consensus expectations (baseline)
+
+   - Near-term (Q2 FY2026):
+     * EPS ≈ $3.09–$3.15
+     * Revenue ≈ $10.7B–$10.95B
+     * YoY growth:
+       - Revenue ≈ +10–12%
+       - EPS ≈ +10–12%
+
+   - Full-year FY2026:
+     * EPS ≈ ~$12.8–$13.1
+     * Revenue growth ≈ low double-digit (~10–11%)
+
+   Interpretation:
+   - Steady double-digit growth is expected.
+   - Visa is treated as a high-quality compounder, not a hyper-growth story.
+   - A “beat” is expected and largely priced in.
+
+2. Priority evaluation factors (ranked)
+
+   2.1 Payments volume + transaction growth (highest priority)
+   - Key metrics:
+     * Payments volume growth (~7–9% expected)
+     * Processed transactions growth
+   - These are leading indicators of global consumer activity.
+   - Strong volume growth → bullish signal.
+   - Deceleration → bearish.
+
+   2.2 Cross-border volume (high-margin driver)
+   - Most important revenue lever.
+   - Tied to:
+     * International travel
+     * Cross-border e-commerce
+   - Expected: continued growth, but slower vs prior peaks.
+   - Re-acceleration → bullish.
+   - Continued slowdown → bearish.
+
+   2.3 Forward guidance
+   - Evaluate commentary on:
+     * Full-year revenue growth (low double-digit baseline)
+     * EPS growth trajectory
+   - If guidance is raised or confident → bullish.
+   - If guidance is cautious or lowered → bearish.
+   - Override rule: guidance outweighs modest beats.
+
+   2.4 Consumer spending health (macro proxy)
+   - Visa is a real-time indicator of global consumption.
+   - Assess:
+     * U.S. spending trends
+     * International demand
+   - Resilient spending → positive.
+   - Signs of slowdown → negative.
+
+   2.5 Pricing / take rate stability
+   - Evaluate:
+     * Net revenue yield (take rate)
+     * Competitive pressure (e.g., fintech, alternative rails)
+   - Stable or improving monetization → bullish.
+   - Compression → bearish.
+
+   2.6 Value-added services / innovation
+   - Growth in:
+     * Data services
+     * Fraud prevention
+     * AI-driven offerings
+   - These support margin expansion and long-term growth.
+   - Weak adoption → negative.
+
+3. Expectation vs reality framework
+
+   Bull case:
+   - Payments volume remains strong (~7–9%+ growth)
+   - Cross-border growth stabilizes or re-accelerates
+   - Guidance confirms low double-digit growth or improves
+   - Margins remain strong
+
+   Bear case:
+   - Volume growth slows (consumer weakness)
+   - Cross-border decelerates further
+   - Guidance becomes cautious
+   - Take rate pressure emerges
+
+4. Priced-in baseline vs surprise scenarios
+
+   Baseline:
+   - ~10–12% revenue growth
+   - ~10–12% EPS growth
+   - Stable consumer spending
+   - Continued but moderating cross-border growth
+
+   Upside surprise:
+   - Strong cross-border rebound
+   - Higher-than-expected volume growth
+   - Guidance raised
+   - Strong services/AI revenue contribution
+
+   Downside surprise:
+   - Weak consumer spending trends
+   - Cross-border slowdown
+   - Guidance disappointment (key risk)
+   - Revenue growth falls below ~10%
+
+5. Reaction function
+
+   - If:
+     * Earnings meet/beat expectations
+     * AND volume + cross-border metrics are strong
+     * AND guidance is stable or improving
+     → classify as BULLISH
+
+   - If:
+     * Earnings beat
+     * BUT volume slows OR guidance weakens
+     → classify as BEARISH
+
+   - If mixed:
+     → classify as NEUTRAL with guidance + cross-border trends as tie-breakers
+
+6. Market context (critical overlay)
+
+   - Visa has:
+     * Consistent history of beating estimates :contentReference[oaicite:1]{index=1}
+     * Strong recent results (e.g., ~15% revenue growth last quarter) :contentReference[oaicite:2]{index=2}
+
+   - Current expectations:
+     * Continued steady growth, not acceleration
+     * High-quality execution already priced in
+
+   - Key dynamic:
+     * “Beat is expected — magnitude + guidance drive the stock”
+
+Output:
+- Classification: Bullish / Neutral / Bearish
+- Key drivers (2–4 concise points)
+- Explicit assessment of:
+  * Payments volume trend (accelerating vs decelerating)
+  * Cross-border strength (re-accelerating vs slowing)
+  * Guidance direction (improving vs cautious)

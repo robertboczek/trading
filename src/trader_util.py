@@ -7,7 +7,7 @@ from xmlrpc import client
 
 import anthropic
 
-import anthropic
+from ib_async import *
 
 
 def get_env(name: str) -> str:
@@ -51,3 +51,20 @@ def query_claude(ticker, expectation_content, earnings_report_content):
             {"role": "user", "content": f"You are a real-time trading investor, think hard, are you bearish, neutral or bullish on {ticker} stock based on these results and expectations? {ticker} earnings report: <report> {earnings_report_content} </report> and earnings expectation guidance: <expectation>{expectation_content}</expectation>. Respond with simple text bearish, neutral or bullish and short summary explaining your reasoning."}
         ]
     )
+
+def ib_connect():
+    ib = IB()
+    ib.connect('127.0.0.1', 4001, clientId=1)
+    return ib
+
+def ib_buy(ticker, action, quantity, price):
+    contract = Stock(ticker, 'SMART', 'USD')
+    ib = ib_connect()
+    ib.qualifyContracts(contract)
+    #order = MarketOrder('BUY', 1) # Buy 10 shares
+    order = LimitOrder(action, quantity, price)
+    order.outsideRth = True # Allow execution outside regular trading hours
+    order.tif = 'GTC'  # Set to Good Till Cancelled
+
+    # Place the order and get a Trade object
+    return ib.placeOrder(contract, order)

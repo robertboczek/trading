@@ -1,0 +1,140 @@
+Evaluate Coca-Cola (KO) earnings using the following framework:
+
+1. Consensus expectations (baseline)
+
+   - Near-term (Q1 2026):
+     * EPS ≈ $0.81–$0.84 :contentReference[oaicite:0]{index=0}
+     * Revenue ≈ $12.2B–$12.6B :contentReference[oaicite:1]{index=1}
+     * YoY growth:
+       - Revenue up vs ~$11.2B prior year
+       - EPS growth vs ~$0.73 prior year :contentReference[oaicite:2]{index=2}
+     * Organic sales growth ≈ ~7% range :contentReference[oaicite:3]{index=3}
+
+   - Full-year 2026 expectations:
+     * Organic revenue growth ≈ 4–5%
+     * EPS growth ≈ 7–8% :contentReference[oaicite:4]{index=4}
+
+   Interpretation:
+   - Steady, mid-single-digit growth is expected.
+   - KO is treated as a stable, defensive compounder.
+   - No acceleration is priced in—execution consistency is the bar.
+
+2. Priority evaluation factors (ranked)
+
+   2.1 Volume vs pricing mix (highest priority)
+   - Decompose organic growth into:
+     * Pricing (primary driver recently)
+     * Volume (weak to flat in recent quarters)
+   - Key question:
+     * Is growth still pricing-led, or is volume improving?
+   - Volume recovery → bullish signal.
+   - Continued reliance on pricing → bearish/neutral.
+
+   2.2 Forward guidance
+   - Evaluate full-year organic growth and EPS outlook.
+   - KO recently guided:
+     * ~4–5% organic growth
+     * ~7–8% EPS growth
+   - If guidance is raised or shows confidence → bullish.
+   - If guidance remains cautious or weak → bearish.
+   - Override rule: guidance outweighs small earnings beats.
+
+   2.3 Pricing power durability
+   - Assess ability to continue raising prices without volume erosion.
+   - Monitor:
+     * Consumer pushback
+     * Elasticity in developed markets
+   - Sustained pricing power → bullish.
+   - Signs of demand weakening due to pricing → bearish.
+
+   2.4 Margins and cost structure
+   - Analyze:
+     * EBIT margin (~mid-30% range expected)
+     * Input cost pressures (commodities, packaging)
+   - Expected:
+     * Stable to slightly improving margins
+   - Margin compression → negative signal.
+
+   2.5 Consumer demand health (global)
+   - Evaluate regional demand:
+     * North America and Asia recently weaker
+     * Emerging markets mixed
+   - Determine:
+     * Temporary softness vs structural slowdown
+   - Broad demand weakness → bearish.
+   - Stable global demand → supportive.
+
+   2.6 Product mix and innovation
+   - Monitor growth in:
+     * Zero-sugar products
+     * Water / premium beverages
+   - Investors expect portfolio diversification to support growth.
+   - Weak innovation or mix shift → negative.
+
+3. Expectation vs reality framework
+
+   Bull case:
+   - Volume growth stabilizes or improves
+   - Pricing power remains intact without demand loss
+   - Margins remain strong or expand
+   - Guidance improves or signals confidence
+
+   Bear case:
+   - Growth remains pricing-driven with weak volumes
+   - Consumer demand softens (especially in developed markets)
+   - Guidance remains cautious or is lowered
+   - Margin pressure emerges
+
+4. Priced-in baseline vs surprise scenarios
+
+   Baseline:
+   - ~4–5% organic growth
+   - ~7–8% EPS growth trajectory
+   - Strong pricing, weak/flat volumes
+   - Stable margins
+
+   Upside surprise:
+   - Clear volume acceleration (not just pricing)
+   - Stronger-than-expected organic growth
+   - Guidance raised
+   - Margin expansion
+
+   Downside surprise:
+   - Volume declines persist or worsen
+   - Revenue miss driven by demand weakness
+   - Guidance disappoints (key risk)
+   - Pricing power shows cracks
+
+5. Reaction function
+
+   - If:
+     * Earnings meet/beat expectations
+     * AND volume trends improve
+     * AND guidance is stable or raised
+     → classify as BULLISH
+
+   - If:
+     * Earnings beat
+     * BUT growth is pricing-driven OR guidance weakens
+     → classify as BEARISH
+
+   - If mixed:
+     → classify as NEUTRAL with volume + guidance as primary tie-breakers
+
+6. Market context (critical overlay)
+
+   - KO is a defensive, dividend-oriented stock:
+     * Lower volatility, but sensitive to macro + consumer trends
+   - Current concerns:
+     * Demand softness in key regions
+     * Over-reliance on pricing vs volume
+   - Key dynamic:
+     * “Quality of growth” (volume vs pricing) matters more than absolute growth
+
+Output:
+- Classification: Bullish / Neutral / Bearish
+- Key drivers (2–4 concise points)
+- Explicit assessment of:
+  * Volume vs pricing mix (real demand vs price-driven growth)
+  * Guidance direction (improving vs cautious)
+  * Margin stability (expanding vs compressing)

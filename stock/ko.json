@@ -1,0 +1,10 @@
+
+{
+    "earnings_website": ["https://investors.coca-colacompany.com/news-events/press-releases/detail/1158/coca-cola-reports-second-quarter-2026-results-and-raises-full-year-guidance", "https://investors.coca-colacompany.com/news-events/press-releases/detail/1158/coca-cola-reports-second-quarter-2026-results-and-updates-full-year-guidance"],
+    "accept": "application/html",
+    "ticker": "KO",
+    "earnings_date": "2024-07-27",
+    "earnings_time": "Before Market Open",
+    "expectations_doc": "stock/expectations-ko.txt",
+    "earnings_doc": "stock/earnings-ko.html"
+}

@@ -1,0 +1,136 @@
+Evaluate Public Storage (PSA) earnings using the following framework:
+
+1. Consensus expectations (baseline)
+
+   - Near-term (upcoming quarter):
+     * Focus on Core FFO per share (primary REIT metric)
+     * Expect relatively flat to modest growth YoY
+     * Revenue growth ≈ low-single digits (~2–4%)
+
+   - Full-year 2026:
+     * Revenue ≈ ~$5.0B (~2–3% growth) :contentReference[oaicite:0]{index=0}
+     * EPS / FFO growth ≈ low-to-mid single digits
+     * Overall growth profile: slow, stable REIT expansion
+
+   Interpretation:
+   - PSA is viewed as a mature, defensive REIT.
+   - Low growth is expected and already priced in.
+   - The key question is stability vs deterioration—not growth acceleration.
+
+2. Priority evaluation factors (ranked)
+
+   2.1 Same-store revenue & occupancy (highest priority)
+   - Core drivers:
+     * Occupancy rates
+     * Rental rate growth
+   - Recent trend:
+     * Flat or slightly declining occupancy and rents (industry-wide pressure)
+   - Stabilization → bullish signal.
+   - Continued decline → bearish.
+
+   2.2 Pricing power vs demand elasticity
+   - Evaluate ability to:
+     * Raise rents
+     * Maintain tenant retention
+   - Key dynamic:
+     * Storage demand is highly price-sensitive
+   - Strong pricing → bullish.
+   - Need to discount to fill units → bearish.
+
+   2.3 Forward guidance (Core FFO outlook)
+   - Assess updated FFO guidance vs expectations.
+   - PSA has recently issued cautious outlooks.
+   - If guidance stabilizes or improves → bullish.
+   - If guidance is cut → bearish.
+   - Override rule: guidance outweighs quarterly results.
+
+   2.4 External growth (acquisitions / consolidation)
+   - Monitor:
+     * Acquisition pipeline
+     * Integration progress (e.g., National Storage Affiliates deal)
+   - Strategic expansion is a key growth lever.
+   - Strong execution → positive.
+   - Weak or dilutive deals → negative.
+
+   2.5 Cost pressures and margins
+   - Key cost drivers:
+     * Property taxes
+     * Labor / operating expenses
+     * Interest rates (REIT sensitivity)
+   - Rising costs without pricing offset → margin compression → bearish.
+
+   2.6 Balance sheet & capital allocation
+   - Evaluate:
+     * Debt levels and refinancing risk
+     * Dividend sustainability (core REIT appeal)
+   - Stable balance sheet → supportive.
+   - Pressure from rates → negative.
+
+3. Expectation vs reality framework
+
+   Bull case:
+   - Occupancy stabilizes or improves
+   - Rental rates hold steady or grow modestly
+   - Guidance stabilizes or improves
+   - Acquisition strategy adds growth
+
+   Bear case:
+   - Occupancy declines further
+   - Rent growth weak or negative
+   - Guidance cut again
+   - Margin pressure from rising costs
+
+4. Priced-in baseline vs surprise scenarios
+
+   Baseline:
+   - Low growth (~2–3%)
+   - Stable but soft operating trends
+   - Cautious guidance
+   - REIT-like steady performance
+
+   Upside surprise:
+   - Clear stabilization in occupancy + rents
+   - Strong acquisition-driven growth
+   - Guidance improved
+   - Margin resilience despite cost pressures
+
+   Downside surprise:
+   - Continued decline in occupancy or rents
+   - Weak guidance (key risk)
+   - Higher-than-expected cost pressures
+   - Evidence of oversupply in key markets
+
+5. Reaction function
+
+   - If:
+     * Results are in line
+     * AND same-store trends stabilize
+     * AND guidance improves or holds
+     → classify as BULLISH
+
+   - If:
+     * Results meet expectations
+     * BUT occupancy/rent trends weaken OR guidance declines
+     → classify as BEARISH
+
+   - If mixed:
+     → classify as NEUTRAL with same-store trends + guidance as primary drivers
+
+6. Market context (critical overlay)
+
+   - PSA has:
+     * Consensus rating ≈ Hold with limited upside (~3–4%) :contentReference[oaicite:1]{index=1}
+   - Sector backdrop:
+     * Self-storage demand normalizing after pandemic boom
+     * Higher interest rates pressuring REIT valuations
+
+   - Key dynamic:
+     * “Stability is the goal — deterioration is the risk”
+
+Output:
+- Classification: Bullish / Neutral / Bearish
+- Key drivers (2–4 concise points)
+- Explicit assessment of:
+  * Same-store performance (stabilizing vs declining)
+  * Pricing power (holding vs weakening)
+  * Guidance direction (improving vs deteriorating)

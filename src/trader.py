@@ -20,6 +20,7 @@ import os
 from pydoc import doc
 import sys
 import json
+from concurrent.futures import ThreadPoolExecutor
 
 from datetime import datetime
 import time
@@ -35,6 +36,11 @@ from dotenv import load_dotenv
 from trader_util import get_env, print_time, sleep_until, get_headers, query_claude, ib_connect, ib_buy
 
 load_dotenv()
+
+def fetch_url(url, accept = "application/html"):
+    headers = get_headers(accept_type=accept)
+
+    return requests.get(url, headers=headers)
 
 def main():
     parser = argparse.ArgumentParser(description="Get real-time price quote from Schwab.")
@@ -83,8 +89,15 @@ def main():
     print(headers)
     while not report_ready:
         print_time()
-        for earnings_url in earnings_url_array:
-            response = requests.get(earnings_url, headers=headers)
+
+        #for earnings_url in earnings_url_array:
+        with ThreadPoolExecutor(max_workers=5) as executor:
+            responses = list(executor.map(fetch_url, earnings_url_array))
+        #response = requests.get(earnings_url_array, headers=headers)
+
+        print(f"Received {len(responses)} responses, checking for report availability...")
+        
+        for response in responses:
             if response.status_code == 200:
                 if response.content.__contains__(b"CAN'T FIND WHAT YOU'RE LOOKING FOR?"):
                     print("Report not ready yet. Retrying...")
@@ -95,7 +108,8 @@ def main():
                     break
             else:
                 print(f"Failed to download file (status code: {response.status_code}). Retrying...")
-                time.sleep(5)
+                
+        time.sleep(5)
 
     print(response.status_code)
 
@@ -116,7 +130,7 @@ def main():
     print_time()
     result_string = fitz.message.content[0].text[0:20]  # get first 20 characters to check for bullish/bearish/neutral
 
-    stock_price = 100.00
+    stock_price = 305.00
 
     if (result_string.lower().__contains__("bullish")):
         print("Stock will likely go up, consider buying or holding.")

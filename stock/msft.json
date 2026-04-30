@@ -1,0 +1,10 @@
+{
+    "earnings_website": ["https://s1.q4cdn.com/050606653/files/doc_financials/2026/q2/Q2-2026-Earnings-Release_vF.pdf"],
+    "accept": "application/pdf",
+    "ticker": "MSFT",
+    "earnings_date": "2024-07-29",
+    "earnings_time": "After Market Close",
+    "expectations_doc": "stock/expectations-msft.txt",
+    "earnings_doc": "stock/earnings-msft.html"
+
+}

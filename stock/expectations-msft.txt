@@ -1,0 +1,141 @@
+Evaluate Microsoft (MSFT) earnings using the following framework:
+
+1. Consensus expectations (baseline)
+
+   - Near-term (Q3 FY2026):
+     * EPS ≈ $4.04–$4.07
+     * Revenue ≈ $81.3B–$81.5B
+     * YoY growth:
+       - Revenue ≈ +16%
+       - EPS ≈ +16–17%
+
+   - Full-year FY2026:
+     * Revenue ≈ ~$324B–$327B
+     * EPS ≈ ~$16.5–$17.1
+
+   Interpretation:
+   - Strong double-digit growth is expected.
+   - Microsoft is priced as a high-quality AI + cloud compounder.
+   - A beat is expected and largely priced in.
+
+2. Priority evaluation factors (ranked)
+
+   2.1 Azure growth (highest priority KPI)
+   - Key metric:
+     * Azure growth ≈ high-30% expected (≈37–39%)
+   - This is the most important driver of valuation.
+   - Re-acceleration or >~39% growth → bullish signal.
+   - Deceleration → bearish (even if earnings beat).
+
+   2.2 AI monetization (core narrative)
+   - Evaluate:
+     * Copilot adoption (enterprise + consumer)
+     * AI contribution to revenue growth
+   - Key question:
+     * Is AI translating into real revenue or just usage?
+   - Strong monetization → bullish.
+   - Weak conversion → bearish.
+
+   2.3 Forward guidance (critical override)
+   - Assess Q4 + full-year guidance:
+     * Revenue growth trajectory
+     * Azure outlook
+     * Margin expectations
+   - If guidance improves → bullish.
+   - If guidance is cautious or unchanged → bearish.
+   - Override rule: guidance outweighs quarterly beat.
+
+   2.4 AI capex vs returns (key tension)
+   - Evaluate:
+     * Capital expenditures (data centers, GPUs)
+     * Commentary on ROI / utilization
+   - Market concern:
+     * ~$600B industry-wide AI spend needs justification
+   - Controlled spending + clear ROI → bullish.
+   - Rising capex without returns → bearish.
+
+   2.5 Margins and operating leverage
+   - Expected:
+     * Strong margins (~mid-40% operating margin range)
+   - Watch for:
+     * AI infrastructure diluting margins
+   - Stable or expanding margins → bullish.
+   - Margin compression → negative.
+
+   2.6 Broader segment performance
+   - Assess:
+     * Intelligent Cloud (primary driver)
+     * Productivity & Business (Office, LinkedIn)
+     * More Personal Computing (Windows, Xbox)
+   - Weakness outside AI/cloud → secondary drag.
+
+3. Expectation vs reality framework
+
+   Bull case:
+   - Azure growth re-accelerates (≈39%+)
+   - AI monetization shows clear traction (Copilot growth)
+   - Guidance improves or signals confidence
+   - Margins remain strong despite capex
+
+   Bear case:
+   - Azure growth slows
+   - AI revenue contribution unclear
+   - Guidance cautious or disappointing
+   - Capex rises without visible returns
+
+4. Priced-in baseline vs surprise scenarios
+
+   Baseline:
+   - ~16% revenue growth
+   - Strong Azure growth (~high-30%)
+   - Continued AI investment
+   - Stable margins
+
+   Upside surprise:
+   - Azure growth above expectations
+   - Strong AI monetization (enterprise adoption)
+   - Guidance raised
+   - Margin resilience despite capex
+
+   Downside surprise:
+   - Azure deceleration
+   - Weak AI monetization signals
+   - Guidance disappoints (key risk)
+   - Capex concerns dominate narrative
+
+5. Reaction function
+
+   - If:
+     * Earnings beat
+     * AND Azure growth strong (≥ high-30%)
+     * AND guidance improves
+     → classify as BULLISH
+
+   - If:
+     * Earnings beat
+     * BUT Azure slows OR guidance weakens
+     → classify as BEARISH
+
+   - If mixed:
+     → classify as NEUTRAL with Azure + guidance as tie-breakers
+
+6. Market context (critical overlay)
+
+   - Microsoft has:
+     * Consistently beaten earnings expectations
+     * Strong analyst sentiment (majority Buy ratings)
+   - However:
+     * Stock reaction has recently been driven more by guidance than results
+     * AI spending scrutiny is increasing across Big Tech
+
+   - Key dynamic:
+     * “Strong growth is expected — differentiation comes from AI execution + guidance”
+
+Output:
+- Classification: Bullish / Neutral / Bearish
+- Key drivers (2–4 concise points)
+- Explicit assessment of:
+  * Azure growth (accelerating vs decelerating)
+  * AI monetization (real vs narrative)
+  * Guidance direction (improving vs cautious)
+  * Capex vs returns (efficient vs concerning)

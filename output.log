@@ -1,0 +1,40 @@
+Current time: 2026-04-30 07:29:39
+Earnings date: 2024-07-30 Before Market Open
+Earnings website: ['https://s25.q4cdn.com/479285134/files/doc_financials/2026/q1/1Q26-Mastercard-Earnings-Release.pdf']
+['https://s25.q4cdn.com/479285134/files/doc_financials/2026/q1/1Q26-Mastercard-Earnings-Release.pdf']
+{'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36', 'Accept-Language': 'en-US,en;q=0.5', 'Accept': 'application/pdf', 'Referer': 'https://ir.example.com/'}
+Current time: 2026-04-30 07:29:39
+Received 1 responses, checking for report availability...
+Report ready
+200
+Current time: 2026-04-30 07:29:40
+Message: # Classification: BULLISH
+
+## Key Drivers
+
+1. **Strong beat on both lines**: Revenue of $8.4B (+16% reported, +12% currency-neutral) came in at the high end of expectations, and adjusted EPS of $4.60 meaningfully beat the $4.30–$4.40 consensus range (+23% YoY reported, +18% currency-neutral).
+
+2. **Cross-border re-acceleration**: Cross-border volume grew +13% on local currency basis — a critical high-margin driver showing robust strength, signaling continued international travel and commerce resilience.
+
+3. **Value-added services outperformance**: VAS&S grew +22% (+18% currency-neutral), confirming successful revenue diversification beyond pure transaction processing.
+
+4. **Margin expansion**: Adjusted operating margin expanded to 60.8% (+1.5 ppt YoY), demonstrating strong operating leverage despite continued investment.
+
+## Explicit Assessment
+
+- **Payment volume trend**: *Stable/Solid* — GDV +7% local currency, switched transactions +9%, purchase volume +9%. Healthy but not accelerating; US debit notably soft (+0.5%).
+- **Cross-border strength**: *Strong/Robust* — +13% local currency growth remains a key bullish signal of consumer + travel resilience.
+- **Guidance direction**: *Not explicitly provided in release* — but tone ("diversified, future-ready, and delivering") and BVNK/Agent Pay strategic commentary are constructive.
+- **Margin trajectory**: *Expanding* — +150bps adjusted operating margin expansion is clearly bullish.
+
+## Bottom Line
+Beat + strong cross-border + VAS acceleration + margin expansion + aggressive capital return ($4B buybacks in Q1) checks every bullish box in the framework. The only minor caution is US debit softness, but it's outweighed by international strength and services momentum.
+Current time: 2026-04-30 07:29:55
+Traceback (most recent call last):
+  File "/Users/robertboczek/work/python/trading/trading/src/trader.py", line 173, in <module>
+    main()
+    ~~~~^^
+  File "/Users/robertboczek/work/python/trading/trading/src/trader.py", line 153, in main
+    while not trade.isDone() and counter < 100:
+              ^^^^^
+UnboundLocalError: cannot access local variable 'trade' where it is not associated with a value

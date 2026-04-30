@@ -1,0 +1,137 @@
+Evaluate Amazon (AMZN) earnings using the following framework:
+
+1. Consensus expectations (baseline)
+
+   - Near-term (Q1 2026):
+     * EPS ≈ $1.61–$1.64
+     * Revenue ≈ $177B–$178B
+     * YoY growth:
+       - Revenue ≈ +14%
+       - EPS ≈ low-single-digit growth
+
+   - Segment expectations:
+     * AWS revenue ≈ ~$36.8B (mid-to-high 20% growth baseline)
+     * Advertising ≈ strong (~20%+ growth)
+     * E-commerce: steady but lower-margin growth
+
+   Interpretation:
+   - Solid double-digit revenue growth is expected.
+   - Earnings growth is lagging due to rising costs.
+   - A “beat” is expected and largely priced in.
+
+2. Priority evaluation factors (ranked)
+
+   2.1 AWS growth (highest priority KPI)
+   - Key expectation:
+     * ~25–30%+ YoY growth baseline (with upside to ~30–38%)
+   - AWS is the primary profit driver.
+   - Re-acceleration → bullish signal.
+   - Deceleration → bearish (even if earnings beat).
+
+   2.2 AI monetization vs capex (core tension)
+   - Amazon is expected to spend ~$200B+ on AI/data centers.
+   - Evaluate:
+     * Whether AI demand is translating into revenue (AWS + Bedrock)
+     * Management commentary on ROI
+   - Strong monetization → bullish.
+   - Rising capex without clear returns → bearish. 
+
+   2.3 Forward guidance (critical override)
+   - Assess Q2 + full-year outlook:
+     * Revenue growth trajectory
+     * Operating income range
+   - Analysts expect strong revenue guidance (~$188B+ Q2 range).
+   - If guidance improves → bullish.
+   - If guidance is cautious or “messy” → bearish.
+
+   2.4 Margins and operating income
+   - Key focus:
+     * AWS margins (~mid-30% expected)
+     * Retail profitability (North America + International)
+   - Concern:
+     * AI + logistics costs may pressure margins
+   - Margin expansion → bullish.
+   - Margin compression → negative.
+
+   2.5 Advertising + retail execution
+   - Advertising expected to grow ~20%+ (high-margin segment).
+   - Retail:
+     * Stable growth expected
+     * Margin improvements vs prior years
+   - Strong ad growth → supportive.
+   - Retail weakness → secondary drag.
+
+   2.6 Consumer + enterprise demand signals
+   - Evaluate:
+     * E-commerce demand trends
+     * Enterprise cloud demand
+   - Resilient demand → bullish.
+   - Signs of slowdown → bearish.
+
+3. Expectation vs reality framework
+
+   Bull case:
+   - AWS growth re-accelerates (>~30%)
+   - AI monetization shows clear traction
+   - Guidance improves or exceeds expectations
+   - Margins remain stable despite heavy capex
+
+   Bear case:
+   - AWS growth slows
+   - AI spending outweighs near-term returns
+   - Guidance cautious or disappointing
+   - Margin pressure increases
+
+4. Priced-in baseline vs surprise scenarios
+
+   Baseline:
+   - ~14% revenue growth
+   - ~$1.62 EPS
+   - Strong AWS + advertising growth
+   - Heavy AI investment continues
+
+   Upside surprise:
+   - AWS growth above expectations
+   - Strong AI-driven revenue acceleration
+   - Guidance raised
+   - Margin resilience
+
+   Downside surprise:
+   - AWS deceleration (key risk)
+   - Weak or cautious guidance
+   - Margin pressure from capex
+   - AI narrative questioned
+
+5. Reaction function
+
+   - If:
+     * Earnings beat
+     * AND AWS growth strong (≥ high-20% / ~30%+)
+     * AND guidance improves
+     → classify as BULLISH
+
+   - If:
+     * Earnings beat
+     * BUT AWS slows OR guidance weakens OR capex concerns rise
+     → classify as BEARISH
+
+   - If mixed:
+     → classify as NEUTRAL with AWS + guidance as primary tie-breakers
+
+6. Market context (critical overlay)
+
+   - Analysts broadly bullish (~90% Buy ratings).
+   - Stock has rallied into earnings → expectations elevated.
+   - Options imply ~5–7% move (moderate volatility range).
+
+   - Key dynamic:
+     * “Strong growth is expected — AWS + AI execution + guidance drive the stock”
+
+Output:
+- Classification: Bullish / Neutral / Bearish
+- Key drivers (2–4 concise points)
+- Explicit assessment of:
+  * AWS growth (accelerating vs decelerating)
+  * AI monetization vs capex (validated vs concerning)
+  * Guidance direction (improving vs cautious)
+  * Margin trajectory (expanding vs pressured)

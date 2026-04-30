@@ -37,7 +37,7 @@ from trader_util import get_env, print_time, sleep_until, get_headers, query_cla
 
 load_dotenv()
 
-def fetch_url(url, accept = "application/html"):
+def fetch_url(url, accept = "application/pdf"):
     headers = get_headers(accept_type=accept)
 
     return requests.get(url, headers=headers)
@@ -85,6 +85,7 @@ def main():
     # keep retrying every 5 seconds 
     report_ready = False
     response = None
+
     print(earnings_url_array)
     print(headers)
     while not report_ready:
@@ -109,7 +110,7 @@ def main():
             else:
                 print(f"Failed to download file (status code: {response.status_code}). Retrying...")
                 
-        time.sleep(5)
+        time.sleep(1)
 
     print(response.status_code)
 
@@ -126,28 +127,30 @@ def main():
     print_time()
 
     message = trader_util.query_claude(ticker, expectation_content, earnings_report_content)
-    print(fitz.message.content[0].text)
+    print(f"Message: {message.content[0].text}")
     print_time()
-    result_string = fitz.message.content[0].text[0:20]  # get first 20 characters to check for bullish/bearish/neutral
+    result_string = message.content[0].text[0:30]  # get first 30 characters to check for bullish/bearish/neutral
+    result_string = " "
 
-    stock_price = 305.00
+    stock_price = 531.00 # get real-time stock price from API or web scraping in production, hardcoded here for example
+    quantity = 1 # set desired quantity to trade
 
     if (result_string.lower().__contains__("bullish")):
         print("Stock will likely go up, consider buying or holding.")
         ib = ib_connect()
         # for long position consider buying at higher price to ensure execution 
         # 1% above current price
-        trade = ib_buy(ticker, "BUY", 1, stock_price * 1.01)  # example: buy 1 share at $100.00
+        trade = ib_buy(ib, ticker, "BUY", quantity, round(stock_price * 1.005, 2))  # example: buy 1 share at $101.00
 
     elif (result_string.lower().__contains__("bearish")):
         print("Stock will likely go down, consider selling or shorting.")
         ib = ib_connect()
         # for long position consider buying at higher price to ensure execution 
         # 1% below current price
-        trade = ib_buy(ticker, "SELL", 1, stock_price * 0.99)  # example: buy 1 share at $100.00
+        trade = ib_buy(ib, ticker, "SELL", quantity, round(stock_price * 0.995, 2))  # example: buy 1 share at $99.00
 
     counter = 0
-    while not trade.isDone() and counter < 12:
+    while not trade.isDone() and counter < 100:
         ib.sleep(5)
         print(f"Status: {trade.orderStatus.status}")
         counter += 1
@@ -165,8 +168,6 @@ def main():
     # time.sleep(15 * 60)
 
     # print("Putting orders to close any open positions...")
-    
-
 
 if __name__ == "__main__":
     main()

@@ -41,7 +41,7 @@ def query_claude(ticker, expectation_content, earnings_report_content):
     # The SDK automatically looks for the ANTHROPIC_API_KEY environment variable
     client = anthropic.Anthropic()
 
-    client.messages.create(
+    return client.messages.create(
         model="claude-opus-4-7", # Select your model (e.g., Sonnet or Opus)
         max_tokens=6000,
         messages=[
@@ -57,14 +57,14 @@ def ib_connect():
     ib.connect('127.0.0.1', 4001, clientId=1)
     return ib
 
-def ib_buy(ticker, action, quantity, price):
+def ib_buy(ib, ticker, action, quantity, price):
     contract = Stock(ticker, 'SMART', 'USD')
-    ib = ib_connect()
+    # ib = ib_connect()
     ib.qualifyContracts(contract)
     #order = MarketOrder('BUY', 1) # Buy 10 shares
     order = LimitOrder(action, quantity, price)
     order.outsideRth = True # Allow execution outside regular trading hours
-    order.tif = 'GTC'  # Set to Good Till Cancelled
+    #order.tif = 'GTC'  # Set to Good Till Cancelled
 
     # Place the order and get a Trade object
     return ib.placeOrder(contract, order)

@@ -1,0 +1,10 @@
+{
+    "earnings_website": ["https://s25.q4cdn.com/479285134/files/doc_financials/2026/q1/1Q26-Mastercard-Earnings-Release.pdf"],
+    "accept": "application/pdf",
+    "ticker": "MA",
+    "earnings_date": "2024-07-30",
+    "earnings_time": "Before Market Open",
+    "expectations_doc": "stock/expectations-ma.txt",
+    "earnings_doc": "stock/earnings-ma.html"
+
+}

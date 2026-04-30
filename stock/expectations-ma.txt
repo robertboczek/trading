@@ -1,0 +1,146 @@
+Evaluate Mastercard (MA) earnings using the following framework:
+
+1. Consensus expectations (baseline)
+
+   - Near-term (Q1 2026):
+     * EPS ≈ $4.30–$4.40
+     * Revenue ≈ $8.2B–$8.8B
+     * YoY growth:
+       - Revenue ≈ +13–17%
+       - EPS ≈ low-to-mid teens growth
+
+   - Full-year 2026:
+     * Revenue growth ≈ high end of low double-digit (~10–13%)
+     * Continued strong margin profile
+
+   Interpretation:
+   - Strong double-digit growth is expected.
+   - Mastercard is viewed as a high-quality, durable compounder.
+   - A beat is expected and largely priced in.
+   - Expectations have slightly softened into the print (recent downward revisions).
+
+2. Priority evaluation factors (ranked)
+
+   2.1 Payment volume + transaction growth (highest priority)
+   - Key metrics:
+     * Gross dollar volume (GDV)
+     * Switched transactions
+   - These reflect global consumer + business spending.
+   - Strong volume growth (~high single digits) → bullish.
+   - Deceleration → bearish.
+
+   2.2 Cross-border volume (critical high-margin driver)
+   - Most important revenue lever.
+   - Driven by:
+     * International travel
+     * Cross-border commerce
+   - Expected: continued strong growth (~double digits).
+   - Re-acceleration → bullish.
+   - Slowing trend → bearish.
+
+   2.3 Forward guidance (critical override)
+   - Evaluate:
+     * Full-year revenue growth (low double-digit baseline)
+     * Expense growth vs revenue growth
+   - Mastercard historically:
+     * Beats estimates consistently
+     * Relies on guidance to drive stock reaction
+   - If guidance improves → bullish.
+   - If guidance is cautious → bearish.
+
+   2.4 Consumer spending resilience (macro signal)
+   - Mastercard is a real-time proxy for global consumption.
+   - Current expectation:
+     * Spending remains resilient despite macro uncertainty
+   - Weakening spending → bearish.
+   - Continued resilience → supportive.
+
+   2.5 Margin profile and operating leverage
+   - Expected:
+     * Very high margins (~mid-to-high 50% operating margin range historically)
+   - Watch:
+     * Expense growth (tech + investments)
+   - Margin stability → bullish.
+   - Margin compression → negative.
+
+   2.6 Value-added services (important secondary driver)
+   - Growth in:
+     * Data analytics
+     * Fraud prevention
+     * Value-added services
+   - These diversify revenue beyond pure transaction volume.
+   - Strong growth → bullish.
+   - Weak contribution → neutral/negative.
+
+3. Expectation vs reality framework
+
+   Bull case:
+   - Strong payment volume growth (~high single digits)
+   - Cross-border remains robust (double-digit growth)
+   - Guidance confirms or improves low double-digit growth
+   - Margins remain stable
+
+   Bear case:
+   - Volume growth slows (consumer weakness)
+   - Cross-border decelerates
+   - Guidance cautious or lowered
+   - Expense growth pressures margins
+
+4. Priced-in baseline vs surprise scenarios
+
+   Baseline:
+   - ~13–17% revenue growth
+   - ~$4.30–$4.40 EPS
+   - Continued strong consumer spending
+   - Stable high-margin profile
+
+   Upside surprise:
+   - Strong cross-border acceleration
+   - Higher-than-expected transaction growth
+   - Guidance raised
+   - Strong services growth contribution
+
+   Downside surprise:
+   - Weak guidance (key risk)
+   - Slowing payment volumes
+   - Cross-border deceleration
+   - Margin pressure from higher costs
+
+5. Reaction function
+
+   - If:
+     * Earnings beat
+     * AND payment + cross-border volumes strong
+     * AND guidance improves
+     → classify as BULLISH
+
+   - If:
+     * Earnings beat
+     * BUT volumes slow OR guidance weakens
+     → classify as BEARISH
+
+   - If mixed:
+     → classify as NEUTRAL with guidance + cross-border as tie-breakers
+
+6. Market context (critical overlay)
+
+   - Mastercard has:
+     * Consistent history of beating estimates
+     * Strong analyst sentiment (majority Buy ratings)
+
+   - Current expectations:
+     * High-quality, consistent growth
+     * Resilient consumer backdrop
+     * No major acceleration priced in
+
+   - Key dynamic:
+     * “Beat is expected — transaction trends + guidance drive the stock”
+
+Output:
+- Classification: Bullish / Neutral / Bearish
+- Key drivers (2–4 concise points)
+- Explicit assessment of:
+  * Payment volume trend (accelerating vs decelerating)
+  * Cross-border strength (re-accelerating vs slowing)
+  * Guidance direction (improving vs cautious)
+  * Margin trajectory (stable vs pressured)

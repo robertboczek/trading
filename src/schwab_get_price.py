@@ -19,6 +19,7 @@ import sys
 import json
 
 import schwab
+from schwab.auth import easy_client
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -43,6 +44,14 @@ def main():
     api_key = get_env("SCHWAB_API_KEY")
     api_secret = get_env("SCHWAB_API_SECRET")
     token_path = os.environ.get("SCHWAB_TOKEN_PATH", "conf/schwab/token.json")
+
+    #print(api_key, api_secret, token_path)
+    # client = easy_client(
+    #      api_key=api_key,
+    #      app_secret=api_secret,
+    #      callback_url='https://127.0.0.1:8080',
+    #      token_path=token_path
+    #  )
 
     # Create authenticated client
     client = schwab.auth.client_from_token_file(token_path, api_key, api_secret)
@@ -82,6 +91,13 @@ def main():
         print(f"Error retrieving quote. Status: {response.status_code}", file=sys.stderr)
         print(response.text, file=sys.stderr)
         sys.exit(1)
+    
+    response = client.get_price_history_every_minute(ticker)
+    if response.status_code == 200:
+        quote_data = response.json()
+        print(f"Price history for {ticker}:")
+        for entry in quote_data.get('priceHistory', []):
+            print(f"Time: {entry.get('time', 'N/A')}, Price: ${entry.get('price', 'N/A'):.2f}" if isinstance(entry.get('price'), (int, float)) else f"Time: {entry.get('time', 'N/A')}, Price: {entry.get('price', 'N/A')}")
 
 
 if __name__ == "__main__":

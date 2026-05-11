@@ -1,0 +1,9 @@
+{
+    "earnings_website": ["https://investors.palantir.com/news-details/2026/Palantir-Reports-Q1-2026"],
+    "accept": "application/html",
+    "ticker": "PG",
+    "earnings_date": "2026-05-04",
+    "earnings_time": "After Market Close",
+    "expectations_doc": "stock/expectations-pltr.txt",
+    "earnings_doc": "stock/earnings-pltr.html"
+}

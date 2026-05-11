@@ -1,0 +1,134 @@
+Evaluate Palantir (PLTR) earnings using the following framework:
+
+1. Consensus expectations (baseline)
+
+   - Near-term (Q1 2026):
+     * EPS ≈ $0.28 (~+115% YoY)
+     * Revenue ≈ $1.54B (~+70–75% YoY)
+     * Strong acceleration vs prior growth (~39% YoY previously)
+
+   - Segment expectations:
+     * U.S. commercial revenue: hyper-growth (~90–130%+ YoY)
+     * Government revenue: strong but slower (~55–65% YoY)
+
+   Interpretation:
+   - Extremely strong growth is expected.
+   - A large beat is partially priced in.
+   - The bar is very high—this is no longer a “turnaround” story but a high-expectation AI leader.
+
+2. Priority evaluation factors (ranked)
+
+   2.1 U.S. commercial growth (highest priority KPI)
+   - Core driver of valuation and narrative.
+   - Expected: hyper-growth (~90%+ YoY).
+   - This reflects adoption of Palantir’s AI Platform (AIP).
+   - Acceleration or beat → bullish signal.
+   - Deceleration → strong bearish reaction.
+
+   2.2 AI monetization (core narrative)
+   - Evaluate:
+     * Conversion of AIP demand into revenue
+     * Enterprise adoption velocity (“bootcamps”, deal size, new customers)
+   - Strong monetization → validates AI thesis → bullish.
+   - Weak conversion → narrative risk → bearish.
+
+   2.3 Forward guidance (critical override)
+   - Assess:
+     * Full-year revenue growth (~60%+ implied baseline)
+     * Commercial vs government outlook
+   - If guidance is raised → strong bullish signal.
+   - If guidance is cautious or unchanged → bearish (given high expectations).
+   - Override rule: guidance outweighs earnings beat.
+
+   2.4 Growth durability (sustainability question)
+   - Key question:
+     * Is ~70%+ growth sustainable or peaking?
+   - Investors are testing:
+     * Whether current growth is structural or temporary
+   - Signs of durability → bullish.
+   - Signs of normalization → bearish.
+
+   2.5 Margins and profitability
+   - Palantir is now:
+     * Profitable with strong free cash flow (~50%+ margin expectations)
+   - Evaluate:
+     * Operating margin stability
+     * Free cash flow conversion
+   - Strong margins → bullish.
+   - Margin compression → negative.
+
+   2.6 Government vs commercial mix
+   - Historical strength: government contracts
+   - Current narrative shift: commercial AI growth
+   - Investors want:
+     * Commercial becoming dominant growth driver
+   - Over-reliance on government → negative.
+
+3. Expectation vs reality framework
+
+   Bull case:
+   - U.S. commercial growth exceeds expectations
+   - AI monetization clearly accelerating
+   - Guidance raised (key driver)
+   - Margins remain strong
+
+   Bear case:
+   - Commercial growth decelerates
+   - AI revenue conversion unclear
+   - Guidance cautious or disappointing
+   - Growth sustainability questioned
+
+4. Priced-in baseline vs surprise scenarios
+
+   Baseline:
+   - ~$1.54B revenue (~70%+ growth)
+   - ~$0.28 EPS
+   - Strong AI-driven commercial growth
+   - Continued profitability
+
+   Upside surprise:
+   - Commercial growth materially exceeds expectations
+   - Strong “beat and raise” (critical)
+   - Clear AI-driven deal momentum
+   - Margin expansion
+
+   Downside surprise:
+   - Weak or slowing commercial growth (key risk)
+   - Guidance disappointment
+   - AI narrative questioned
+   - Growth deceleration signals
+
+5. Reaction function
+
+   - If:
+     * Earnings beat
+     * AND commercial growth strong (>~90% YoY)
+     * AND guidance raised
+     → classify as BULLISH
+
+   - If:
+     * Earnings beat
+     * BUT commercial growth slows OR guidance weakens
+     → classify as BEARISH
+
+   - If mixed:
+     → classify as NEUTRAL with commercial growth + guidance as tie-breakers
+
+6. Market context (critical overlay)
+
+   - Expectations are extremely high:
+     * Analysts expect ~70%+ revenue growth and >100% EPS growth :contentReference[oaicite:0]{index=0}
+   - Options market implies ~9% post-earnings move (high volatility) :contentReference[oaicite:1]{index=1}
+   - Stock has pulled back despite strong fundamentals → valuation concerns remain :contentReference[oaicite:2]{index=2}
+
+   - Key dynamic:
+     * “Great results are expected — only a ‘beat + raise + strong commercial AI growth’ drives upside”
+
+Output:
+- Classification: Bullish / Neutral / Bearish
+- Key drivers (2–4 concise points)
+- Explicit assessment of:
+  * Commercial growth (accelerating vs decelerating)
+  * AI monetization (validated vs questioned)
+  * Guidance direction (raised vs cautious)
+  * Growth durability (sustainable vs peaking)

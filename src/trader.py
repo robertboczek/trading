@@ -37,7 +37,7 @@ from trader_util import get_env, print_time, sleep_until, get_headers, query_cla
 
 load_dotenv()
 
-def fetch_url(url, accept = "application/pdf"):
+def fetch_url(url, accept = "application/html"):
     headers = get_headers(accept_type=accept)
 
     return requests.get(url, headers=headers)
@@ -99,13 +99,14 @@ def main():
         print(f"Received {len(responses)} responses, checking for report availability...")
         
         for response in responses:
-            if response.status_code == 200:
-                if response.content.__contains__(b"CAN'T FIND WHAT YOU'RE LOOKING FOR?"):
-                    print("Report not ready yet. Retrying...")
-                    report_ready = False
-                else:
+            print(f"Response status code: {response.status_code} for URL: {response.url}")
+            if response.status_code == 200 or response.status_code == 304:  # some companies return 404 until report is live
+                if response.content.__contains__(b"Palantir Technologies Inc"):
                     print("Report ready")
                     report_ready = True
+                else:
+                    print("Report not ready yet. Retrying...")
+                    report_ready = False
                     break
             else:
                 print(f"Failed to download file (status code: {response.status_code}). Retrying...")
@@ -132,7 +133,7 @@ def main():
     result_string = message.content[0].text[0:30]  # get first 30 characters to check for bullish/bearish/neutral
     result_string = " "
 
-    stock_price = 531.00 # get real-time stock price from API or web scraping in production, hardcoded here for example
+    stock_price = 146.5 # get real-time stock price from API or web scraping in production, hardcoded here for example
     quantity = 1 # set desired quantity to trade
 
     if (result_string.lower().__contains__("bullish")):
@@ -140,14 +141,14 @@ def main():
         ib = ib_connect()
         # for long position consider buying at higher price to ensure execution 
         # 1% above current price
-        trade = ib_buy(ib, ticker, "BUY", quantity, round(stock_price * 1.005, 2))  # example: buy 1 share at $101.00
+        trade = ib_buy(ib, ticker, "BUY", quantity, round(stock_price * 1.01, 2))  # example: buy 1 share at $101.00
 
     elif (result_string.lower().__contains__("bearish")):
         print("Stock will likely go down, consider selling or shorting.")
         ib = ib_connect()
         # for long position consider buying at higher price to ensure execution 
         # 1% below current price
-        trade = ib_buy(ib, ticker, "SELL", quantity, round(stock_price * 0.995, 2))  # example: buy 1 share at $99.00
+        trade = ib_buy(ib, ticker, "SELL", quantity, round(stock_price * 0.99, 2))  # example: buy 1 share at $99.00
 
     counter = 0
     while not trade.isDone() and counter < 100:
